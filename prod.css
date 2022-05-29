@@ -1,0 +1,123 @@
+﻿.gammes {
+    display: flex;
+    flex-direction: row;
+}
+
+.categ {
+    width: 100%;
+    height: 550px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(40, 40, 88);
+    background-color: rgb(39 41 62);
+    border-radius: 10px;
+    font-family: 'Changa', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pr_categs {
+    list-style: none;
+    text-decoration: none;
+}
+
+.pr_categs a {
+    color: red;
+    text-decoration: none;
+    font-size: larger;
+}
+.pr_sub_categs {
+padding-left: 10px;
+list-style: none;
+text-decoration: none;
+color: white;
+}
+.pr_sub_categs a {
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.pr_sub_categs:hover{
+    background-color: rgb(39 41 62);
+    color: red;
+}
+
+    .categ ul li a:hover {
+        color: red;
+        background-color: white;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+.item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cons {
+    color: red;
+    left: 230px;
+    top: 170px;
+    border: 2px solid black;
+    width: 300px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+    .cons img {
+        width: 300px;
+    }
+
+.products_cont {
+    color: red;
+    text-align: center;
+    border: 2px solid black;
+    width: 300px;
+    font-size: 25px;
+    position: relative;
+    left: 60px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+    .products_cont img {
+        width: 300px;
+    }
+
+.products_cont {
+    margin: 10px;
+}
+
+.btn {
+    color: white;
+    background-color: brown;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin: 13px;
+    padding: 6px 20px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+    .btn a {
+        text-decoration: none;
+        color: white;
+    }
+#btn1 {
+    color: white;
+
+    background-color: brown;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin: 13px;
+    padding: 6px 20px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 27px;
+    height: 30px;
+    text-align: center;
+}
